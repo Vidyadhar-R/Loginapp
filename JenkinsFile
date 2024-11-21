@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                git 'https://github.com/Vidyadhar-R/login-app.git'
+                git 'https://github.com/Vidyadhar-R/Loginapp.git'
             }
         }
         stage('Build and Push Docker Image') {
